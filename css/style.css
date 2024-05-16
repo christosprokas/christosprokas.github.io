@@ -828,6 +828,13 @@ figure {
   transform: scale(1.1);
 }
 
+.portait-pre   { 
+width:33%!important;}
+
+.landscape-pre{ 
+width:66%!important;}
+
+
 .fh5co-blog {
   margin-bottom: 60px;
 }
