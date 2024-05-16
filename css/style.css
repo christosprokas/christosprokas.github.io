@@ -155,25 +155,19 @@ figure {
 .fh5co-cover,
 .fh5co-hero {
   position: relative;
-  height: 50vh;
+  height: 44vh;
   width: 100%;
- 
+	
 }
 
+/*
 @media screen and (max-width: 768px) {
   .fh5co-cover,
   .fh5co-hero {
-    height: 30vh;
+    height: 50vh;
   }
 }
-
-@media screen and (max-width: 1600px) {
-  .fh5co-cover,
-  .fh5co-hero {
-    height: 20vh;
-  }
-}
-
+*/
 
 
 .fh5co-overlay {
@@ -190,13 +184,14 @@ figure {
 .fh5co-cover {
   background-size: cover;
   position: relative;
+  background-position: center center!important;
+  max-height: 1000px!important;
 }
 
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     heifght: inherit;
     padding: 3em 0;
-	background-position: -400px 0px !important;
 	background-repeat: no-repeat;
   }
 }

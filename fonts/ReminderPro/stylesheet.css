@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'PF Reminder Pro';
+    src: url('PFReminderPro-Regular.eot');
+    src: local('PFReminderPro-Regular'),
+        url('PFReminderPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PFReminderPro-Regular.woff2') format('woff2'),
+        url('PFReminderPro-Regular.woff') format('woff'),
+        url('PFReminderPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Reminder Pro';
+    src: url('PFReminderPro-Medium.eot');
+    src: local('PFReminderPro-Medium'),
+        url('PFReminderPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PFReminderPro-Medium.woff2') format('woff2'),
+        url('PFReminderPro-Medium.woff') format('woff'),
+        url('PFReminderPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Reminder Pro';
+    src: url('PFReminderPro-Bold.eot');
+    src: local('PFReminderPro-Bold'),
+        url('PFReminderPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PFReminderPro-Bold.woff2') format('woff2'),
+        url('PFReminderPro-Bold.woff') format('woff'),
+        url('PFReminderPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
