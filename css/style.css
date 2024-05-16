@@ -199,7 +199,7 @@ figure {
 
 .fh5co-cover .display-t {
   display: table;
-  height: 800px;
+  height:  45vh;
   width: 100%;
   position: relative;
   z-index: 2;
@@ -207,7 +207,7 @@ figure {
 
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t {
-    height: 600px;
+    height: 40vh;
   }
 }
 
