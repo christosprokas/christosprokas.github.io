@@ -798,6 +798,7 @@ figure {
   margin-bottom: 30px;
   display:flex;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .gallery .gallery-img {
@@ -830,30 +831,28 @@ figure {
   transform: scale(1.1);
 }
 
-.portait-pre   { 
-width: 100%;}
-
-.landscape-pre{ 
- width: 100%;
-}
 
 
-@media screen and (min-width: 768px) {
-.portait-pre   { 
+
+@media screen and (max-width: 900px) {
+.portait-pre{ 
 padding-left:15px;
 padding-top:15px;
+flex:33.3333%;
 max-width:33.3333%;
-max-height:450px;
-object-fit: fill;
+max-height:430px;
+object-fit: cover;
 overflow: hidden;}
 
 .landscape-pre{ 
 padding-left:15px;
 padding-top:15px;
+flex:66.6666%;
 max-width:66.6666%;
-max-height:450px;
-object-fit: fill;
-overflow: hidden;}
+max-height:430px;
+object-fit: cover;
+overflow: hidden;
+min-height: 100%;}
 
 .break {
   flex-basis: 100%;
@@ -861,7 +860,14 @@ overflow: hidden;}
 }
 }
 
+.portait-pre   { 
+flex: 100%;
+width:100%;}
 
+.landscape-pre{ 
+ flex: 100%;
+ width:100%;
+}
 
 
 
