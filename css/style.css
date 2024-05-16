@@ -156,18 +156,26 @@ figure {
 .fh5co-hero {
   position: relative;
   /*height: 800px;*/
-  height: 92vh;
+  /*height: 92vh;*/
+  height: 50vh;
   width: 100%;
  
 }
 
+@media screen and (max-width: 1600px) {
+  .fh5co-cover,
+  .fh5co-hero {
+    height: 700px;
+  }
+}
+/*
 @media screen and (max-width: 768px) {
   .fh5co-cover,
   .fh5co-hero {
     height: 700px;
   }
 }
-
+*/
 .fh5co-overlay {
   position: absolute !important;
   width: 100%;
